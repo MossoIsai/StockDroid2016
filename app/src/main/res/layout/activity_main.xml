@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="fill_parent"
+       android:layout_height="200dp"
+       android:id="@+id/head"
+       android:scaleType="centerCrop"
+       android:src="@drawable/backend"
+       />
+    <View
+        android:id="@+id/cuerpo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head"/>
+    <EditText
+        android:drawableLeft="@drawable/ic_perm_identity_grey600_36dp"
+        android:textStyle="bold"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textColorHint="@color/txt"
+        android:textColor="@color/colorDark"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignTop="@+id/cuerpo"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Usuario"/>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_https_grey600_36dp"
+        android:textStyle="bold"
+        android:textColorHint="@color/txt"
+        android:hint="Password"
+        android:textColor="@color/colorDark"
+        android:textSize="20sp"
+        android:layout_marginTop="60sp"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"/>
+
+    <Button
+        android:drawableRight="@drawable/ic_done_white_36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="ENTRAR"
+        android:textSize="15sp"
+        android:id="@+id/button"
+        android:background="@drawable/botones"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="60dp"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:textColor="@color/blanco"
+        />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDO, INICIA SESION"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:layout_below="@+id/head"
+        android:layout_marginTop="38dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="SALIR"
+        android:id="@+id/button2"
+        android:textColor="@color/blanco"
+        android:textSize="15dp"
+        android:drawableRight="@drawable/ic_close_white_36dp"
+        android:background="@drawable/botones"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Inventary-App</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="titulo">Inicio Sesion</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="title_activity_agregar">Agregar</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Arreglo de cadenas de las opciones del menu -->
+    <string-array name="opciones_menu">
+        <item>Perfil</item>
+        <item>Agregar</item>
+        <item>Buscar</item>
+        <item>Consulta Fecha</item>
+        <item>Eliminados</item>
+        <item>Sincronzar</item>
+        <item>Cerrar Sesion</item>
+    </string-array>
+
+    <!-- Arreglo de iconos del menu -->
+    <array name="iconos">
+        <item>@drawable/ic_perm_identity_grey600_36dp</item>
+        <item>@drawable/ic_add_grey600_36dp</item>
+        <item>@drawable/ic_search_grey600_36dp</item>
+        <item>@drawable/ic_insert_invitation_grey600_36dp</item>
+        <item>@drawable/ic_delete_grey600_36dp</item>
+        <item>@drawable/ic_cloud_upload_grey600_36dp</item>
+        <item>@drawable/ic_settings_power_grey600_36dp</item>
+    </array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
