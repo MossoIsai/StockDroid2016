@@ -5,12 +5,12 @@ import android.content.res.TypedArray;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
 import java.util.ArrayList;
-
 
 public class Agregar extends ActionBarActivity  implements AdapterView.OnItemClickListener{
   private DrawerLayout drawerLayout;
@@ -19,29 +19,20 @@ public class Agregar extends ActionBarActivity  implements AdapterView.OnItemCli
   private ListView listView;
   private ArrayList<ItmObject> navItems;
   private String[] titulo;
-  private View vista;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_agregar);
-/* TabHost
+ /*
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         System.out.println("Regresa: " +actionBar);
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
  */
         //Meu Despegable
-        MisMetodosDrawerLayout  misMetodosDrawer =  new MisMetodosDrawerLayout();
-        misMetodosDrawer.incializar(drawerLayout,listView,vista,navIconos,titulo,
-                R.id.drawer_layout,R.id.lista,R.layout.header,
-                R.array.iconos,R.array.opciones_menu);
-        listView.setOnItemClickListener(this);
-
-        misMetodosDrawer.llenarMenu();
-        /*
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         listView = (ListView)findViewById(R.id.lista);
+        listView.setOnItemClickListener(this);
         View header = getLayoutInflater().inflate(R.layout.header,null);
         listView.addHeaderView(header);
         navIconos = getResources().obtainTypedArray(R.array.iconos);
@@ -52,17 +43,11 @@ public class Agregar extends ActionBarActivity  implements AdapterView.OnItemCli
              navItems.add(new ItmObject(titulo[i], navIconos.getResourceId(i, -1)));
           }
 
-            navItems.add(new ItmObject(titulo[1], navIconos.getResourceId(1, -1)));
-            navItems.add(new ItmObject(titulo[2], navIconos.getResourceId(2, -1)));
-            navItems.add(new ItmObject(titulo[3], navIconos.getResourceId(3, -1)));
-            navItems.add(new ItmObject(titulo[4], navIconos.getResourceId(4, -1)));
-            navItems.add(new ItmObject(titulo[5], navIconos.getResourceId(5, -1)));
-            navItems.add(new ItmObject(titulo[6], navIconos.getResourceId(6, -1)));
-
         navigationAdapter = new NavigationAdapter(this,navItems);
-        listView.setAdapter(navigationAdapter);*/
+        listView.setAdapter(navigationAdapter);
 
-    }
+    }//Fin del Oncreate
+
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int posicion, long l) {
@@ -98,9 +83,25 @@ public class Agregar extends ActionBarActivity  implements AdapterView.OnItemCli
                     startActivity(intent);
                     selecionada  = true;
                     break;
-
             }
 
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_agregar, menu);
+        return true;
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        Intent intent;
+        if (id == R.id.action_settings) {
+            intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

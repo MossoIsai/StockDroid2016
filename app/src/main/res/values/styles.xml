@@ -5,13 +5,13 @@
      <item name="colorPrimary">@color/colorPrimary</item>
      <item name="colorPrimaryDark">@color/colorDark</item>
      <item name="colorAccent">@color/colorDark</item>
-     <item name="android:windowActionBar">true</item>
     </style>
 
     <!-- Codigos de Colores -->
     <color name="colorPrimary">#607D8B</color>
     <color name="colorDark">#455A64</color>
     <color name="colorAcento">#4CAF50</color>
+    <color name="Colortexto">#00796b</color>
     <color name="blanco">#ffffff</color>
     <color name="txt">#727272</color>
   <!--
