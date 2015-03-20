@@ -2,12 +2,9 @@ package com.mossin.org.invetary_app;
 
 import android.app.SearchManager;
 import android.content.Context;
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.widget.SearchView;
 
 
@@ -18,7 +15,6 @@ public class Buscar extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buscar);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -37,10 +33,4 @@ public class Buscar extends ActionBarActivity {
     }
 
 
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        return super.onOptionsItemSelected(item);
-    }
 }
