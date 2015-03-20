@@ -1,13 +1,9 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.mossin.org.invetary_app.Buscar">
+<menu  xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:yourapp = "http://schemas.android.com/apk/res-auto"  >
 
-    <item android:id="@+id/busqueda"
-        android:title="@string/buscar"
-        android:icon="@drawable/ic_search_white_36dp"
-        android:showAsAction="collapseActionView|ifRoom"
-        android:actionViewClass="android.widget.SearchView"
-        />
-
+    <item  android:id = "@+id/action_search"
+        android:title = "@string/buscar"
+        android:icon = "@drawable/ic_search_white_36dp"
+        yourapp:showAsAction = "always|collapseActionView"
+        yourapp:actionViewClass = "android.widget.SearchView"  />
 </menu>
