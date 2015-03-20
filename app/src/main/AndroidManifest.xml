@@ -21,13 +21,12 @@
             android:name=".Agregar"
             android:label="@string/title_activity_agregar" >
         </activity>
-        <activity
-            android:name=".MainActivity2"
-            android:label="@string/title_activity_main_activity2" >
-        </activity>
-        <activity
-            android:name=".Buscar"
-            android:label="@string/title_activity_buscar" >
+        <activity android:name=".Buscar"
+            android:label="@string/title_activity_buscar"
+            >
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/search" />
+
         </activity>
     </application>
 

@@ -3,8 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.mossin.org.invetary_app.Buscar">
 
-    <item android:id="@+id/buscar"
+    <item android:id="@+id/busqueda"
         android:title="@string/buscar"
         android:orderInCategory="100"
-        app:showAsAction="ifRoom" />
+        android:icon="@drawable/ic_search_white_36dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView"
+        />
+
 </menu>
