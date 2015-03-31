@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
   private Button entrar;
   private Button salir;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +28,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
              //Boton entrar
               Intent intent =  new Intent(this,Agregar.class);
               startActivity(intent);
+              finish();
               break;
           case R.id.button2:
               //Boton salir

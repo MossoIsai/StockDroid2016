@@ -5,15 +5,27 @@ import android.content.Context;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.SearchView;
 
 
 public class Buscar extends ActionBarActivity {
+    private ListView listView;
+    private ArrayAdapter<String> adaptador;
+    private  String arregloElementos[]  =
+            {"MOSO","ISAI","GARCIA","PANDITA","PANDA","RAUL","TOÑO","TOÑO3"
+                    ,"GEORGE","DUMN","CAPUFE","CAPUDE2",
+                    "MEXICO","EUG","NACI","PEDRO","TRES","CIENTOS","TRECIENTOS","DOSMIL"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buscar);
+        //Here We Go! Mosso
+        listView = (ListView)findViewById(R.id.listView);
+         adaptador = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,arregloElementos);
+        listView.setAdapter(adaptador);
     }
 
     @Override

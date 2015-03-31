@@ -60,27 +60,27 @@ public class Agregar extends ActionBarActivity  implements AdapterView.OnItemCli
                 case 1:
                     intent = new Intent(Agregar.this, MainActivity.class);
                     startActivity(intent);
-
+                    finish();
                     break;
                 case 2:
                     intent = new Intent(Agregar.this, MainActivity.class);
                     startActivity(intent);
-
+                     finish();
                     break;
                 case 3:
                     intent = new Intent(Agregar.this, Buscar.class);
                     startActivity(intent);
-
+                    finish();
                     break;
                 case 4:
                     intent = new Intent(Agregar.this, MainActivity.class);
                     startActivity(intent);
-
+                    finish();
                     break;
                 case 5:
                     intent = new Intent(Agregar.this, MainActivity.class);
                     startActivity(intent);
-
+                     finish();
                     break;
             }
 
