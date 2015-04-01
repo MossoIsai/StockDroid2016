@@ -12,13 +12,15 @@ public class Titulo {
     private String fecha;
 
    //Constructor para metrizado
-    /*
-    Titulo(String nombre, String subtitle){
+
+    Titulo(String nombre, String subtitle,String fecha){
       this.nombre =  nombre;
       this.subtitle = subtitle;
+       this.fecha = fecha;
     }
     //Constructor de Inicializazion de valores
-    Titulo(){
+    /*
+    Titulo(String s, String s1, String moso){
         this.nombre = "";
         this.subtitle = "";
     }*/
