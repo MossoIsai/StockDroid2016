@@ -24,7 +24,7 @@ public class Buscar extends ActionBarActivity {
         setContentView(R.layout.activity_buscar);
         //Here We Go! Mosso
         listView = (ListView)findViewById(R.id.listView);
-         adaptador = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,arregloElementos);
+        adaptador = new ArrayAdapter<>(this,android.R.layout.two_line_list_item,arregloElementos);
         listView.setAdapter(adaptador);
     }
 
