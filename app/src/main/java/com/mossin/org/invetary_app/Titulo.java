@@ -10,7 +10,7 @@ public class Titulo {
     private String nombre;
     private String subtitle;
     private String fecha;
-
+    private int imgIcon;
    //Constructor para metrizado
 
     Titulo(String nombre, String subtitle,String fecha){

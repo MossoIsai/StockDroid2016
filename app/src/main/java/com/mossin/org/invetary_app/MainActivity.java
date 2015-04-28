@@ -15,7 +15,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-      //Botones.......
+      //Botones
         entrar = (Button)findViewById(R.id.button);
         salir = (Button)findViewById(R.id.button2);
         entrar.setOnClickListener(this);

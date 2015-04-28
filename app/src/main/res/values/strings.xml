@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Inventary-App</string>
+    <string name="app_name">StockDroid</string>
     <string name="action_settings">Configuraciones</string>
     <string name="titulo">Inicio Sesion</string>
     <string name="usuario">Usuario</string>
