@@ -16,6 +16,11 @@ public class BDHelper extends SQLiteOpenHelper {
         db.execSQL(recursoBD.creaPrivilegio);
         db.execSQL(recursoBD.creaUsuario);
 
+        /*Pruebas en consola*/
+        System.err.println(recursoBD.creaCargo);
+        System.err.println(recursoBD.creaPrivilegio);
+        System.err.println(recursoBD.creaUsuario);
+
     }
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
