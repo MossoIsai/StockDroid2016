@@ -39,4 +39,12 @@
     <string name="buscar">Buscar</string>
 
 
+
+        <string-array name="comidas">
+            <item>Salchichas</item>
+            <item>Huevos</item>
+            <item>Tomates</item>
+        </string-array>
+
+
 </resources>
