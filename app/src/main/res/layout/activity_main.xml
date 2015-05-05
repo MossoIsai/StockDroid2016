@@ -10,7 +10,7 @@
        android:layout_height="200dp"
        android:id="@+id/head"
        android:scaleType="centerCrop"
-       android:src="@drawable/backend"
+       android:src="@drawable/servidores"
        />
     <View
         android:id="@+id/cuerpo"
