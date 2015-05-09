@@ -8,8 +8,8 @@
     </style>
 
     <!-- Codigos de Colores -->
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorDark">#303F9F</color>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorDark">#455A64</color>
     <color name="colorAcento">#536DFE</color>
     <color name="Colortexto">#303F9F</color>
     <color name="blanco">#ffffff</color>

@@ -23,7 +23,7 @@
 
     <!-- Arreglo de iconos del menu -->
     <array name="iconos">
-        <item>@drawable/ic_perm_identity_grey600_36dp</item>
+        <item>@drawable/ic_account_box_grey600_36dp</item>
         <item>@drawable/ic_add_grey600_36dp</item>
         <item>@drawable/ic_search_grey600_36dp</item>
         <item>@drawable/ic_insert_invitation_grey600_36dp</item>
@@ -39,13 +39,26 @@
     <!-- Lista de String -->
     <string name="buscar">Buscar</string>
 
-
-
-        <string-array name="comidas">
-            <item>Salchichas</item>
-            <item>Huevos</item>
-            <item>Tomates</item>
+        <string-array name="objetos">
+            <item>PTZ</item>
+            <item>DAE</item>
+            <item>LAPTOP</item>
+            <item>PC</item>
+            <item>SERVIDOR</item>
+            <item>LIBRERO</item>
+            <item>MESA</item>
+            <item>GABINETE</item>
         </string-array>
+    
+      <!-- Lista de EJES -->
+     <string-array name="ejes">
+         <item>CHAMAPA-LECHERIA</item>
+         <item>DURANGO-MAZATLAN</item>
+         <item>MEXICO-ACAPULCO</item>
+         <item>MEXICO-IRAPUATO</item>
+         <item>MEXICO-VERACRUZ</item>
+     </string-array>
+
 
 
 </resources>

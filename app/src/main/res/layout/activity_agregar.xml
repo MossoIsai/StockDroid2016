@@ -16,12 +16,15 @@
 
 
     <ScrollView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scrollView"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"
-        android:fillViewport="false">
+        android:id="@+id/scrollView">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="800dp"
+        android:orientation="vertical"
+        >
 
         <TextView
             android:textStyle="bold"
@@ -32,10 +35,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Registra Dispositivo"
             android:id="@+id/textView2"
-            android:layout_alignTop="@+id/scrollView"
             android:layout_centerHorizontal="true" />
-
-    </ScrollView>
 
     <Spinner
         android:layout_width="match_parent"
@@ -55,8 +55,8 @@
         android:id="@+id/editText3"
         android:layout_marginTop="20dp"
         android:layout_below="@+id/spinner"
-        android:layout_alignEnd="@+id/scrollView"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:textStyle="bold"
@@ -138,8 +138,8 @@
         android:textColorHint="@color/txt"
         android:textColor="@color/Colortexto"
         android:layout_below="@+id/radioGroup"
-        android:layout_alignEnd="@+id/scrollView"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:textStyle="bold"
@@ -164,8 +164,8 @@
         android:id="@+id/editText8"
         android:layout_marginTop="20dp"
         android:layout_alignBottom="@+id/editText7"
-        android:layout_alignEnd="@+id/scrollView"
-        android:layout_toEndOf="@+id/radioGroup" />
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView4" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -182,6 +182,7 @@
         android:id="@+id/spinner2"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true" />
     <TextView
         android:layout_width="wrap_content"
@@ -198,6 +199,7 @@
         android:id="@+id/spinner3"
         android:layout_below="@+id/spinner2"
         android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true" />
 
     <EditText
@@ -212,7 +214,8 @@
         android:layout_marginTop="20dp"
         android:layout_below="@+id/spinner3"
         android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/textView4" />
+        android:layout_toStartOf="@+id/textView4"
+        android:layout_alignEnd="@+id/textView3" />
 
     <EditText
         android:textStyle="bold"
@@ -223,11 +226,9 @@
         android:layout_height="wrap_content"
         android:inputType="numberSigned"
         android:ems="10"
-        android:layout_marginTop="20dp"
         android:id="@+id/editText10"
-        android:layout_alignBottom="@+id/editText9"
-        android:layout_alignParentEnd="true"
-        android:layout_alignStart="@+id/editText8" />
+        android:layout_alignTop="@+id/editText9"
+        android:layout_toEndOf="@+id/editText9" />
 
     <Button
         android:layout_width="wrap_content"
@@ -285,6 +286,33 @@
         android:layout_below="@+id/editText3"
         android:layout_alignParentStart="true" />
 
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText11"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:hint="Foto_Ruta"
+            android:textColorHint="@color/txt"
+            android:layout_alignTop="@+id/editText10"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/editText8" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GUARDAR"
+            android:height="60dp"
+            android:background="@drawable/botones"
+            android:textColor="@color/blanco"
+            android:drawableRight="@drawable/ic_save_white_36dp"
+            android:id="@+id/button4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/editText11"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+    </ScrollView>
 
 </RelativeLayout>
 
