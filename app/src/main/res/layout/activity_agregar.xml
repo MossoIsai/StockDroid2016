@@ -22,7 +22,7 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="800dp"
+        android:layout_height="900dp"
         android:orientation="vertical"
         >
 
@@ -291,7 +291,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/editText11"
             android:textStyle="bold"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/Colortexto"
             android:hint="Foto_Ruta"
             android:textColorHint="@color/txt"
             android:layout_alignTop="@+id/editText10"
@@ -310,6 +310,42 @@
             android:layout_alignParentBottom="true"
             android:layout_alignEnd="@+id/editText11"
             android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Cuerpo:"
+            android:id="@+id/textView13"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:id="@+id/checkBox"
+            android:layout_above="@+id/editText6"
+            android:layout_alignParentStart="true"
+            android:checked="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:id="@+id/checkBox2"
+            android:layout_alignTop="@+id/checkBox"
+            android:layout_toEndOf="@+id/textView8"
+            android:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:id="@+id/checkBox3"
+            android:layout_alignTop="@+id/checkBox2"
+            android:layout_toEndOf="@+id/checkBox2"
+            android:checked="false" />
 
     </RelativeLayout>
     </ScrollView>
