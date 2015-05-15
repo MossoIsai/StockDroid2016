@@ -1,3 +1,9 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,7 +14,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/listVista"
+        android:layout_marginTop="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
+
+    <ListView
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/lista"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2dp"
+        android:background="#FFFFFF"
+        android:textColor="#ECEFF1"
+        android:layout_gravity="start"
+        />
+
+</android.support.v4.widget.DrawerLayout>
