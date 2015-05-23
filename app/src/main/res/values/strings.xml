@@ -14,9 +14,9 @@
     <string-array name="opciones_menu">
         <item>Perfil</item>
         <item>Agregar</item>
-        <item>Buscar</item>
+        <item>Registros</item>
         <item>Consulta Fecha</item>
-        <item>Eliminados</item>
+        <item>Buscar</item>
         <item>Sincronzar</item>
         <item>Cerrar Sesion</item>
     </string-array>
@@ -25,40 +25,24 @@
     <array name="iconos">
         <item>@drawable/ic_account_box_grey600_36dp</item>
         <item>@drawable/ic_add_grey600_36dp</item>
-        <item>@drawable/ic_search_grey600_36dp</item>
+        <item>@drawable/ic_assignment_grey600_36dp</item>
         <item>@drawable/ic_insert_invitation_grey600_36dp</item>
-        <item>@drawable/ic_delete_grey600_36dp</item>
+        <item>@drawable/ic_search_grey600_36dp</item>
         <item>@drawable/ic_cloud_upload_grey600_36dp</item>
         <item>@drawable/ic_settings_power_grey600_36dp</item>
     </array>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_main_activity2">MainActivity2</string>
-    <string name="title_activity_buscar">Buscar</string>
+    <string name="title_activity_buscar">Registros</string>
 
     <!-- Lista de String -->
     <string name="buscar">Buscar</string>
 
-    <string-array name="objetos">
-        <item>PTZ</item>
-        <item>DAE</item>
-        <item>LAPTOP</item>
-        <item>PC</item>
-        <item>SERVIDOR</item>
-        <item>LIBRERO</item>
-        <item>MESA</item>
-        <item>GABINETE</item>
-    </string-array>
-
-    <!-- Lista de EJES -->
-    <string-array name="ejes">
-        <item>CHAMAPA-LECHERIA</item>
-        <item>DURANGO-MAZATLAN</item>
-        <item>MEXICO-ACAPULCO</item>
-        <item>MEXICO-IRAPUATO</item>
-        <item>MEXICO-VERACRUZ</item>
-    </string-array>
 
     <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_picture_demo">PictureDemo</string>
+    <string name="title_activity_search_result">SearchResult</string>
+    <string name="title_activity_busqueda">Busqueda</string>
 
 </resources>
