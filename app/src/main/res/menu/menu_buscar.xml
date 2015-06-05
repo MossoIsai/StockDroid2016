@@ -4,6 +4,12 @@
     <item  android:id = "@+id/action_search"
         android:title = "@string/buscar"
         android:icon = "@drawable/ic_search_white_36dp"
+        yourapp:showAsAction = "never"
+        yourapp:actionViewClass = "android.widget.SearchView" />
+
+    <item  android:id = "@+id/sincronizer"
+        android:title = "@string/sincronizar"
+        android:icon = "@drawable/ic_cloud_upload_white_36dp"
         yourapp:showAsAction = "always|collapseActionView"
-        yourapp:actionViewClass = "android.widget.SearchView"  />
+        />
 </menu>

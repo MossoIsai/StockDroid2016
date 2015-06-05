@@ -38,6 +38,8 @@
 
     <!-- Lista de String -->
     <string name="buscar">Buscar</string>
+    <string name="sincronizar">Sincronizar</string>
+
 
 
     <string name="title_activity_camera">Camera</string>

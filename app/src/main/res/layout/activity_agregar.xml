@@ -22,7 +22,7 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="900dp"
+        android:layout_height="940dp"
         android:orientation="vertical"
         >
 
@@ -58,28 +58,14 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true" />
 
-    <EditText
-        android:textStyle="bold"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:ems="10"
-        android:id="@+id/editText4"
-        android:layout_marginTop="20dp"
-        android:textColor="@color/Colortexto"
-        android:textColorHint="@color/txt"
-        android:hint="$ Precio"
-        android:layout_below="@+id/editText3"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Fecha de Compra:"
         android:id="@+id/textView3"
-        android:layout_below="@+id/editText4"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText3" />
 
     <EditText
         android:textStyle="bold"
@@ -141,96 +127,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true" />
 
-    <EditText
-        android:textStyle="bold"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText7"
-        android:hint="Marca"
-        android:textColorHint="@color/txt"
-        android:textColor="@color/Colortexto"
-        android:layout_below="@+id/editText6"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp"
-        android:layout_toStartOf="@+id/radioGroup" />
-
-    <EditText
-        android:textStyle="bold"
-        android:hint="Modelo"
-        android:textColorHint="@color/txt"
-        android:textColor="@color/Colortexto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText8"
-        android:layout_marginTop="20dp"
-        android:layout_alignBottom="@+id/editText7"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/textView4" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Eje Vial:"
-        android:id="@+id/textView5"
-        android:layout_below="@+id/editText7"
-        android:layout_alignParentStart="true" />
-
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner2"
-        android:layout_marginTop="10dp"
-        android:layout_below="@+id/textView5"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Tramo Carretero:"
-        android:id="@+id/textView6"
-        android:layout_below="@+id/spinner2"
-        android:layout_alignParentStart="true" />
-
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner3"
-        android:layout_below="@+id/spinner2"
-        android:layout_marginTop="20dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
-
-    <EditText
-        android:textStyle="bold"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText9"
-        android:hint="Kilometro"
-        android:textColorHint="@color/txt"
-        android:textColor="@color/Colortexto"
-        android:inputType="numberSigned"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/spinner3"
-        android:layout_alignParentStart="true"
-        android:layout_toStartOf="@+id/textView4"
-        android:layout_alignEnd="@+id/textView3" />
-
-    <EditText
-        android:textStyle="bold"
-        android:hint="Metros"
-        android:textColorHint="@color/txt"
-        android:textColor="@color/Colortexto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="numberSigned"
-        android:ems="10"
-        android:id="@+id/editText10"
-        android:layout_alignTop="@+id/editText9"
-        android:layout_toEndOf="@+id/editText9" />
-
-    <Button
+        <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="FECHA"
@@ -250,25 +147,7 @@
         android:layout_below="@+id/radioGroup"
         android:layout_alignParentStart="true" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Marca"
-        android:id="@+id/textView8"
-        android:layout_below="@+id/editText6"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Modelo"
-        android:id="@+id/textView9"
-        android:layout_below="@+id/editText6"
-        android:layout_toEndOf="@+id/radioGroup" />
-
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
@@ -276,27 +155,6 @@
         android:id="@+id/textView10"
         android:layout_below="@+id/spinner"
         android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="$ Precio"
-        android:id="@+id/textView11"
-        android:layout_below="@+id/editText3"
-        android:layout_alignParentStart="true" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText11"
-            android:textStyle="bold"
-            android:textColor="@color/Colortexto"
-            android:hint="Foto_Ruta"
-            android:textColorHint="@color/txt"
-            android:layout_alignTop="@+id/editText10"
-            android:layout_alignParentEnd="true"
-            android:layout_alignStart="@+id/editText8" />
 
         <Button
             android:layout_width="wrap_content"
@@ -308,8 +166,8 @@
             android:drawableRight="@drawable/ic_save_white_36dp"
             android:id="@+id/button4"
             android:layout_alignParentBottom="true"
-            android:layout_alignEnd="@+id/editText11"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -334,34 +192,153 @@
             android:layout_height="wrap_content"
             android:text="B"
             android:id="@+id/checkBox2"
+            android:checked="false"
             android:layout_alignTop="@+id/checkBox"
-            android:layout_toEndOf="@+id/textView8"
-            android:checked="false" />
+            android:layout_toEndOf="@+id/checkBox" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="C"
             android:id="@+id/checkBox3"
+            android:checked="false"
             android:layout_alignTop="@+id/checkBox2"
-            android:layout_toEndOf="@+id/checkBox2"
-            android:checked="false" />
+            android:layout_toEndOf="@+id/checkBox2" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Marca:"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/editText6"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Modelo:"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/editText6"
+            android:layout_toEndOf="@+id/textView4" />
+
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/textView6" />
+
+        <EditText
+            android:textStyle="bold"
+            android:textColor="@color/Colortexto"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:hint="Modelo"
+            android:layout_alignBottom="@+id/spinner2"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Eje Vial:"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/editText4"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner3"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Tramo Carretero:"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/spinner3"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner4"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Cadenamiento:"
+            android:id="@+id/textView11"
+            android:layout_below="@+id/spinner4"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:hint="Kilometro"
+            android:id="@+id/editText7"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:textStyle="bold"
+            android:textColor="@color/Colortexto"
+            android:textColorHint="@color/txt"
+            android:hint="Metros"
+            android:id="@+id/editText8"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Responsable:"
+            android:id="@+id/textView23"
+            android:layout_below="@+id/editText7"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner5"
+            android:layout_below="@+id/textView23"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_below="@+id/editText9"
+            android:layout_height="160dp"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="36dp">
+            android:layout_below="@id/spinner5">
+
             <Gallery
                 android:id="@+id/galleria"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                </Gallery>
-
-            </LinearLayout>
+                android:layout_height="match_parent">
+            </Gallery>
+        </LinearLayout>
 
 
     </RelativeLayout>
