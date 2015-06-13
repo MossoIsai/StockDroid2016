@@ -18,8 +18,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-             >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,6 +44,26 @@
         <activity
             android:name=".Busqueda"
             android:label="@string/title_activity_busqueda" >
+        </activity>
+        <activity
+            android:name=".Resultados"
+            android:label="@string/title_activity_resultados" >
+        </activity>
+        <activity
+            android:name=".Personal"
+            android:label="@string/title_activity_personal" >
+        </activity>
+        <activity
+            android:name=".Perfil"
+            android:label="@string/title_activity_perfil" >
+        </activity>
+        <activity
+            android:name=".Mobiliario"
+            android:label="@string/title_activity_mobiliario" >
+        </activity>
+        <activity
+            android:name=".SubSistema"
+            android:label="@string/title_activity_sub_sistema" >
         </activity>
     </application>
 

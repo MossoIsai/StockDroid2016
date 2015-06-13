@@ -149,38 +149,29 @@
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Todos"
-                android:id="@+id/checkBox6"
-                android:layout_below="@+id/textView20"
-                android:layout_centerHorizontal="true"
-                android:checked="true" />
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="B"
                 android:id="@+id/checkBox7"
-                android:layout_below="@+id/checkBox6"
                 android:layout_centerHorizontal="true"
-                android:checked="false" />
+                android:checked="false"
+                android:layout_below="@+id/textView20" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="A"
                 android:id="@+id/checkBox8"
-                android:layout_below="@+id/checkBox6"
                 android:layout_toStartOf="@+id/checkBox7"
-                android:checked="false" />
+                android:checked="false"
+                android:layout_below="@+id/textView20" />
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="C"
                 android:id="@+id/checkBox9"
-                android:layout_below="@+id/checkBox6"
                 android:layout_toEndOf="@+id/checkBox7"
-                android:checked="false" />
+                android:checked="false"
+                android:layout_below="@+id/textView20" />
 
             <Button
                 android:layout_width="wrap_content"

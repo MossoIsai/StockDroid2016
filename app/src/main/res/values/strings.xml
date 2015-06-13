@@ -26,7 +26,7 @@
         <item>@drawable/ic_account_box_grey600_36dp</item>
         <item>@drawable/ic_add_grey600_36dp</item>
         <item>@drawable/ic_assignment_grey600_36dp</item>
-        <item>@drawable/ic_insert_invitation_grey600_36dp</item>
+        <item>@drawable/silla</item>
         <item>@drawable/ic_search_grey600_36dp</item>
         <item>@drawable/ic_cloud_upload_grey600_36dp</item>
         <item>@drawable/ic_settings_power_grey600_36dp</item>
@@ -39,12 +39,14 @@
     <!-- Lista de String -->
     <string name="buscar">Buscar</string>
     <string name="sincronizar">Sincronizar</string>
-
-
-
     <string name="title_activity_camera">Camera</string>
     <string name="title_activity_picture_demo">PictureDemo</string>
     <string name="title_activity_search_result">SearchResult</string>
     <string name="title_activity_busqueda">Busqueda</string>
+    <string name="title_activity_resultados">Resultados</string>
+    <string name="title_activity_personal">Personal</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="title_activity_mobiliario">Mobiliario</string>
+    <string name="title_activity_sub_sistema">SubSistema</string>
 
 </resources>

@@ -5,18 +5,20 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-   <ImageView
-       android:layout_width="fill_parent"
-       android:layout_height="200dp"
-       android:id="@+id/head"
-       android:scaleType="centerCrop"
-       android:src="@drawable/backend"
-       />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/head"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backend"
+        />
     <View
         android:id="@+id/cuerpo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/head"/>
+
     <EditText
         android:drawableLeft="@drawable/ic_perm_identity_grey600_36dp"
         android:textStyle="bold"
