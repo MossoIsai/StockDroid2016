@@ -22,7 +22,7 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="940dp"
+        android:layout_height="900dp"
         android:orientation="vertical"
         >
 
@@ -210,7 +210,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Marca:"
-            android:id="@+id/textView5"
+            android:id="@+id/mar"
             android:layout_below="@+id/editText6"
             android:layout_alignParentStart="true" />
 
@@ -228,7 +228,7 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:id="@+id/spinner2"
-            android:layout_below="@+id/textView5"
+            android:layout_below="@+id/textView6"
             android:layout_alignParentStart="true"
             android:layout_toStartOf="@+id/textView6" />
 
@@ -291,7 +291,7 @@
             android:inputType="number"
             android:ems="10"
             android:textStyle="bold"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/Colortexto"
             android:hint="Kilometro"
             android:id="@+id/editText7"
             android:layout_below="@+id/textView11"
@@ -326,21 +326,21 @@
             android:layout_below="@+id/textView23"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true" />
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="160dp"
-            android:layout_alignParentStart="true"
-            android:layout_below="@id/spinner5">
-
-            <Gallery
-                android:id="@+id/galleria"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-            </Gallery>
-        </LinearLayout>
 
 
+         <LinearLayout
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="160dp"
+             android:layout_alignParentStart="true"
+             android:layout_below="@id/spinner5">
+
+             <Gallery
+                 android:id="@+id/galleria"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+             </Gallery>
+         </LinearLayout>
     </RelativeLayout>
     </ScrollView>
 
