@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mossin.org.invetary_app.Detalles">
+
+    <item android:id="@+id/modifica" android:title="MODIFICAR"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+    <item android:id="@+id/cancelar" android:title="CANCELAR"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+</menu>

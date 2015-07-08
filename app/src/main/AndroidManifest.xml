@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mossin.org.invetary_app" >
 
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
     <!-- Permisos -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -64,6 +71,18 @@
         <activity
             android:name=".SubSistema"
             android:label="@string/title_activity_sub_sistema" >
+        </activity>
+        <activity
+            android:name=".LeerDatos"
+            android:label="@string/title_activity_leer_datos" >
+        </activity>
+        <activity
+            android:name=".Detalles"
+            android:label="@string/title_activity_detalles" >
+        </activity>
+        <activity
+            android:name=".Descargas"
+            android:label="@string/title_activity_descargas" >
         </activity>
     </application>
 

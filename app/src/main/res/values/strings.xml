@@ -47,6 +47,9 @@
     <string name="title_activity_personal">Personal</string>
     <string name="title_activity_perfil">Perfil</string>
     <string name="title_activity_mobiliario">Mobiliario</string>
-    <string name="title_activity_sub_sistema">SubSistema</string>
+    <string name="title_activity_sub_sistema">Componentes</string>
+    <string name="title_activity_leer_datos">LeerDatos</string>
+    <string name="title_activity_detalles">Detalles</string>
+    <string name="title_activity_descargas">Descargas</string>
 
 </resources>

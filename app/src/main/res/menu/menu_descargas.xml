@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.mossin.org.invetary_app.Descargas">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:icon="@drawable/ic_get_app_white_36dp"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
